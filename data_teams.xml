@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<team_sections>
+  <Team_Section>
+    <name>Футбол</name>
+    <coach>Иванов И.И.</coach>
+    <price>2000</price>
+    <team_size>11</team_size>
+    <inventory>мяч</inventory>
+  </Team_Section>
+  <Team_Section>
+    <name>Волейбол</name>
+    <coach>Кузнецова А.А.</coach>
+    <price>3500</price>
+    <team_size>6</team_size>
+    <inventory>мяч</inventory>
+  </Team_Section>
+</team_sections>
