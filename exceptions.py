@@ -15,3 +15,4 @@ class InvalidAgeLimitError(SportSectionError):
 
 class DataFormatError(SportSectionError):
     """Ошибка формата данных при чтении/записи файла."""
+    
