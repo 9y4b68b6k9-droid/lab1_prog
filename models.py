@@ -64,3 +64,4 @@ class Team_Section(SportSection):
             return cls(name=element.findtext("name", ""), coach=element.findtext("coach", ""), price=int(element.findtext("price", "0")), team_size=int(element.findtext("team_size", "0")), inventory=element.findtext("inventory", ""))
         except (TypeError, ValueError) as exc:
             raise DataFormatError(f"Некорректные данные командной секции: {exc}") from exc
+        
